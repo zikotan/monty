@@ -1,5 +1,7 @@
 #include "monty.h"
+
 bus_t bus = {NULL, NULL, NULL, 0};
+
 /**
  * main - main func
  * @argc: arg1
