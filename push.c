@@ -9,6 +9,8 @@
 void push(stack_t **head, unsigned int count)
 {
 	int n, j = 0, flag = 0;
+	bus_t bus = {NULL, NULL, NULL, 0};
+	(void)bus;
 
 	if (bus.arg)
 	{

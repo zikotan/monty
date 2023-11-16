@@ -12,10 +12,14 @@
 int execute(char *cont, stack_t **stack, unsigned int count, FILE *file)
 {
 	instruction_t exec[] = {
-		{"push", push}, {"pall", pall}
+		{"push", push},
+		{"pall", pall},
+		{NULL, NULL}
 	};
 	unsigned int i = 0;
 	char *oper;
+	bus_t bus = {NULL, NULL, NULL, 0};
+	(void)bus;
 
 	oper = strtok(cont, " \n\t");
 	if (oper && oper[0] == '#')
@@ -38,5 +42,5 @@ int execute(char *cont, stack_t **stack, unsigned int count, FILE *file)
 		freeStack(*stack);
 		exit(EXIT_FAILURE);
 	}
-	return(1);
+	return (1);
 }

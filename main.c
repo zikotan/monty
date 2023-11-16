@@ -9,12 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-	char *cont;
 	FILE *file;
+	char *cont;
 	size_t size = 0;
 	ssize_t readLine = 1;
 	stack_t *stack = NULL;
 	unsigned int count = 0;
+	bus_t bus = {NULL, NULL, NULL, 0};
+	(void)bus;
 
 	if (argc != 2)
 	{
