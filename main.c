@@ -1,5 +1,7 @@
 #include "monty.h"
 
+bus_t bus = {NULL, NULL, NULL, 0};
+
 /**
  * main - main func
  * @argc: arg1
@@ -15,8 +17,6 @@ int main(int argc, char *argv[])
 	ssize_t readLine = 1;
 	stack_t *stack = NULL;
 	unsigned int count = 0;
-	bus_t bus = {NULL, NULL, NULL, 0};
-	(void)bus;
 
 	if (argc != 2)
 	{
