@@ -24,7 +24,7 @@ typedef struct bus_s
 	int lifi;
 } bus_t;
 
-bus_t bus ;
+bus_t bus;
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
