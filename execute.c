@@ -18,8 +18,6 @@ int execute(char *cont, stack_t **stack, unsigned int count, FILE *file)
 	};
 	unsigned int i = 0;
 	char *oper;
-	bus_t bus = {NULL, NULL, NULL, 0};
-	(void)bus;
 
 	oper = strtok(cont, " \n\t");
 	if (oper && oper[0] == '#')
