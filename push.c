@@ -16,7 +16,7 @@ void push(stack_t **head, unsigned int count)
 			j++;
 		for (; bus.arg[j] != '\0'; j++)
 		{
-			if (bus.arg[j] > 57 || bus.arg[j] > 48)
+			if (bus.arg[j] > 57 || bus.arg[j] < 48)
 				flag = 1;
 		}
 		if (flag == 1)
