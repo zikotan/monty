@@ -62,5 +62,6 @@ void addNode(stack_t **head, int n);
 void addQueue(stack_t **head, int n);
 int execute(char *cont, stack_t **stack, unsigned int count, FILE *file);
 void pint(stack_t **head, unsigned int count);
+void pop(stack_t **head, unsigned int count);
 
 #endif
