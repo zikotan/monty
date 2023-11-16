@@ -23,7 +23,6 @@ typedef struct bus_s
 	char *cont;
 	int lifi;
 } bus_t;
-
 bus_t bus;
 
 /**

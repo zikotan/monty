@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
  * main - main func
  * @argc: arg1
