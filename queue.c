@@ -8,7 +8,8 @@
  */
 void queue(stack_t **head, unsigned int count)
 {
-	bus_t bus __attribute__((unused)) = {NULL, NULL, NULL, 0};
+	bus_t bus = {NULL, NULL, NULL, 0};
+	(void)bus;
 	(void)head;
 	(void)count;
 	bus.lifi = 1;
