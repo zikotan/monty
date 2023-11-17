@@ -73,5 +73,7 @@ void _mod(stack_t **head, unsigned int count);
 void _pchar(stack_t **head, unsigned int count);
 void _pstr(stack_t **head, unsigned int count);
 void _rotl(stack_t **head, unsigned int count);
+void _rotr(stack_t **head, unsigned int count);
+void _stack(stack_t **head, unsigned int count);
 
 #endif
