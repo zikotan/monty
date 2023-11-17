@@ -14,7 +14,7 @@ void _pstr(stack_t **head, unsigned int count)
 	_head = *head;
 	while (_head)
 	{
-		if (_head->n > 127 || _head->n < 0)
+		if (_head->n > 127 || _head->n <= 0)
 			break;
 		printf("%c", _head->n);
 		_head = _head->next;
