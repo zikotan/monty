@@ -33,7 +33,7 @@ void _div(stack_t **head, unsigned int count)
 		free(bus.cont);
 		freeStack(*head);
 		exit(EXIT_FAILURE);
-        }
+	}
 	thing = _head->next->n / _head->n;
 	_head->next->n = thing;
 	*head = _head->next;

@@ -12,19 +12,9 @@
 int execute(char *cont, stack_t **stack, unsigned int count, FILE *file)
 {
 	instruction_t exec[] = {
-		{"push", push},
-		{"pall", pall},
-		{"pint", pint},
-		{"pop", pop},
-		{"swap", swap},
-		{"add", add},
-		{"nop", nop},
-		{"sub", _sub},
-		{"mul", _mul},
-		{"div", _div},
-		{"mod", _mod},
-		{"pchar", _pchar},
-		{"pstr", _pstr},
+		{"push", push}, {"pall", pall}, {"pint", pint}, {"pop", pop}, {"swap", swap},
+		{"add", add}, {"nop", nop}, {"sub", _sub}, {"mul", _mul}, {"div", _div},
+		{"mod", _mod}, {"pchar", _pchar}, {"pstr", _pstr}, {"rotl", _rotl},
 		{NULL, NULL}
 	};
 	unsigned int i = 0;

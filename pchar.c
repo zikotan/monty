@@ -19,13 +19,13 @@ void _pchar(stack_t **head, unsigned int count)
 		freeStack(*head);
 		exit(EXIT_FAILURE);
 	}
-	if (_head->n > 127 || _head->n <0)
+	if (_head->n > 127 || _head->n < 0)
 	{
 		fprintf(stderr, "L%d: can't pchar, value out of range\n", count);
 		fclose(bus.file);
 		free(bus.cont);
 		freeStack(*head);
 		exit(EXIT_FAILURE);
-        }
+	}
 	printf("%c\n", _head->n);
 }
