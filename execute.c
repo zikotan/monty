@@ -35,7 +35,7 @@ int execute(char *cont, stack_t **stack, unsigned int count, FILE *file)
 	}
 	if (oper && exec[i].opcode == NULL)
 	{
-		fprintf(stderr, "L%d: unkown instruction %s\n", count, oper);
+		fprintf(stderr, "L%d: unknown instruction %s\n", count, oper);
 		fclose(file);
 		free(cont);
 		freeStack(*stack);
