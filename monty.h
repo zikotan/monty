@@ -66,5 +66,9 @@ void pop(stack_t **head, unsigned int count);
 void swap(stack_t **head, unsigned int count);
 void add(stack_t **head, unsigned int count);
 void nop(stack_t **head, unsigned int count);
+void _sub(stack_t **head, unsigned int count);
+void _mul(stack_t **head, unsigned int count);
+void _div(stack_t **head, unsigned int count);
+void _mod(stack_t **head, unsigned int count);
 
 #endif
