@@ -6,7 +6,7 @@
  * @count: arg2
  * return: nothing
  */
-void _mod(stack_t **head, unsigned int count)
+void _pchar(stack_t **head, unsigned int count)
 {
 	stack_t *_head;
 
