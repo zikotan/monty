@@ -11,5 +11,5 @@ void _stack(stack_t **head, unsigned int count)
 	(void)head;
 	(void)count;
 
-	bus.lifi = 0
+	bus.lifi = 0;
 }

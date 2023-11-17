@@ -10,7 +10,7 @@ void _rotr(stack_t **head, __attribute__((unused)) unsigned int count)
 {
 	stack_t *cp;
 
-	*cp = *head;
+	cp = *head;
 	if (*head == NULL || (*head)->next == NULL)
 		return;
 	while (cp->next)
